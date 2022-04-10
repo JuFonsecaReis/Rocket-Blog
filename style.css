@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+}
+
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.background {
+  background: var(--purple-bg);
+}
+
+.page {
+  width: 1170px;
+  margin: auto;
+  padding-top: 73px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap:32px;
+}
+ul li a {
+    opacity: 0.5;
+}
+
+ul li a:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+
+.line-left {
+    border-left: 2px solid var(--green);
+    padding: 0 0 0 3px;
+}
+header div {
+    display: flex;
+}
+
+input {
+    background: var(--dark-bg);
+    border: none;
+    outline: none;
+    color: var(--light-purple);
+
+    width: 230px;
+    height: 44px;
+    border-radius: 4px 0 0 4px;
+}
+
+button {
+      background: var(--button-bg);
+      width: 70px;
+      height:44px;
+      border: none;
+
+     border-radius: 0 4px 4px 0;
+}
+
+.home{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--button-bg);
+    font-size: 36px;
+    line-height: 56px;
+}
+.text p {
+ margin-top: 16px;
+ color: var(--white);
+ font-size: 18px;
+ line-height: 28px;
+ margin-bottom: 24px;
+}
+
+.text img {
+    border-radius: 2px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all .2s;
+}
+
+.link:hover {
+    gap: 12px;
+}
+
+.line{
+    margin-top: 90px;
+    width: 100%;
+    border: 1px solid var(--green);
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 19px;
+}
+
+.content h3 {
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--purple-bg);
+}
+
+.slide-post2{
+    margin-top: 48.5px;
+}
+
+.cards {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+}
+.cards p {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    line-height: 19px;
+}
+
+.cards h3 {
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--purple-bg);
+}
